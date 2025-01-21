@@ -9,7 +9,7 @@ export default function RootLayout() {
       <Stack
         screenOptions={{
           headerStyle: styles.header,
-          headerTintColor: "#00974a",
+          headerTintColor: "white",
         }}
       />
     </View>

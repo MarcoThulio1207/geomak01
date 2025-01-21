@@ -1,14 +1,13 @@
-import { useNavigation } from "@react-navigation/native";
-import React from "react";
+import {  useRouter } from "expo-router";
+import React from 'react';
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import styles from '../styles/styleIndex';
 
 
-
-
 export default function Index() {
 
-  const navigation = useNavigation();
+  const router = useRouter();
+
 
   return (
     <View style={styles.container}>
@@ -34,16 +33,18 @@ export default function Index() {
           />
       </View>
 
-      <TouchableOpacity style={styles.botaoentrar}>
+      <TouchableOpacity style={styles.botaoentrar}
+        onPress={() => router.push('/home')}>
         <View>
           <Text style={styles.txtbotao}>Entrar</Text>
         </View>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.botaocadastro}
-      onPress={() => navigation.navigate("Cadastro")}>
+        onPress={() => router.push('/cadastro')}
+        >
         <View>
-          <Text style={styles.txtbotaocadastro}>Cadastrar</Text>
+          <Text style={styles.txtbotaocadastro}>Cadastro</Text>
         </View>
       </TouchableOpacity>
 

@@ -31,10 +31,10 @@ const styles = StyleSheet.create({
       marginTop:20
     },
     botaoentrar:{
-      width:150,
+      width:200,
       height:50,
       backgroundColor:"white",
-      borderRadius:14,
+      borderRadius:25,
       marginTop:20,
       fontWeight:'bold'
     },
@@ -45,20 +45,59 @@ const styles = StyleSheet.create({
       padding:10
     },
     botaocadastro:{
-      width:120,
-      height:40,
+      width:200,
+      height:50,
       backgroundColor:"white",
-      borderRadius:14,
-      marginTop:20
+      borderRadius:25,
+      marginTop:20,
+      fontWeight:'bold'
     },
     txtbotaocadastro:{
-      fontSize:15,
-      padding:10,
+      fontSize:20,
+      textAlign:'center',
       alignItems:'center',
-      textAlign:'center'
-    }
-  
-  
+      padding:10
+    },
+    cadastroContainer:{
+      flex:1,
+      backgroundColor:'#00974a'
+    },
+    txtcadastro:{
+      fontSize:36,
+      color:'white',
+      textAlign:'center',
+      alignItems:'center',
+      marginTop:25,
+    },
+    textInputs:{
+      width:278,
+      height:50,
+      backgroundColor:"white",
+      borderRadius:14,
+      marginTop:20,
+      fontSize:20
+    },
+    containerInputs:{
+      padding:5,
+      alignItems:'center',
+      marginTop:2
+    },
+    btncadastrar:{
+      width:150,
+      height:45,
+      backgroundColor:"white",
+      borderRadius:20,
+      marginTop:40,
+      alignItems:'center',
+      left:120
+    },
+  txtcadastrar:{
+    fontSize:20,
+    padding:10,
+    alignItems:'center',
+    textAlign:'center'
+  },
+
   
   })  
 
