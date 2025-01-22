@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
       height:45,
       backgroundColor:"white",
       borderRadius:20,
-      marginTop:40,
+      marginBottom:45,
       alignItems:'center',
       left:120
     },
@@ -97,6 +97,48 @@ const styles = StyleSheet.create({
     alignItems:'center',
     textAlign:'center'
   },
+  viewmodal:{
+    borderRadius:25,
+    height:350, 
+    borderRadius:15,
+    width:'100%',
+    backgroundColor:'white',
+    height:280,
+    marginTop:250
+
+  },
+  modal:{
+   margin:8
+
+  },
+  txtmodal01:{
+    fontSize:25,
+    alignItems:'center',
+    textAlign:'center',
+    marginTop:25
+  },
+  btnmodal:{
+    alignItems:'center',
+    margin:45,
+    backgroundColor:'green',
+    borderRadius:15,
+    width:300,
+    height:30
+  },
+  txtmodal02:{
+    alignItems:'center',
+    textAlign:'center',
+    fontSize:20,
+    fontWeight:'bold'
+  },
+  imgmodal:{
+    width:80,
+    height:80,
+    marginBottom:20,
+    left:150,
+    marginTop:25
+  }
+
 
   
   })  
