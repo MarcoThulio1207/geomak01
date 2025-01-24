@@ -1,15 +1,11 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import Cadastro from '../screens/cadastro'
-
-const Stack = createStackNavigator();
+import { Stack } from 'expo-router';
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Cadastro" component={Cadastro} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
+    <Stack>
+      <Stack.Screen name="index" options={{ title: 'Início' }} />
+      <Stack.Screen name="cadastro" options={{ title: 'Cadastro' }} />
+      {/* Adicione outras telas aqui */}
+    </Stack>
+  )
 }
