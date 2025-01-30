@@ -8,6 +8,7 @@ export default function Index() {
 
   const router = useRouter();
 
+  // colocar tela de loading ....
 
   return (
     <View style={styles.container}>

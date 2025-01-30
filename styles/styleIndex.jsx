@@ -137,10 +137,129 @@ const styles = StyleSheet.create({
     marginBottom:20,
     left:150,
     marginTop:25
+  },
+  containerHome:{
+    flex:1,
+    backgroundColor:'#00974a',
+  },
+  imgLogoHome:{
+    width:62,
+    height:62
+  },
+  imgContainerHome:{
+    padding:20
+  },
+  txtHome:{
+    alignItems:'center',
+    textAlign:'center',
+    marginTop:30,
+    color:'white',
+    fontSize:48
+  },
+  containerBtn:{
+    flexDirection:'row',
+    flexWrap:'wrap',
+    marginTop:10,
+    padding:15,
+
+  },
+  imgbtn:{
+    width:150,
+    height:150,
+    marginTop:5
+  },
+  Principal01:{
+    backgroundColor:'white',
+    borderRadius:14,
+    padding:2,
+    alignItems:'center',
+    marginBottom:25,
+    marginRight:8
+  },
+  Principal02:{
+    backgroundColor:'white',
+    borderRadius:14,
+    padding:2,
+    alignItems:'center',
+    marginBottom:25,
+    marginLeft:6
+    
+  },
+  Principal03:{
+    backgroundColor:'white',
+    borderRadius:14,
+    padding:2,
+    alignItems:'center',
+    marginRight:8
+  },
+  Principal04:{
+    backgroundColor:'white',
+    borderRadius:14,
+    padding:2,
+    alignItems:'center',
+    marginLeft:6
+  },
+  txtbtnPrincipal:{
+    fontSize:15,
+    textAlign:'center',
+    fontWeight:'bold'
+  },
+  txtcontainerPadrao:{
+    color:'white',
+    textAlign:'center',
+    padding:30,
+    fontSize:48
+  },
+  containercentralPadrao:{
+    alignItems:'center'
+  },
+  imgcontainerPadrao:{
+    height:50,
+    width:52,
+    backgroundColor:'white',
+    borderRadius:8
+    
+  },
+  txtsegmento:{
+    color:'white',
+    marginTop:15,
+    fontSize:24
+  },
+  imgsegmentos:{
+    height:80,
+    width:'95%',
+    borderRadius:10,
+    left:10,
+    marginTop:10
+  },
+  txtsegmentos:{
+    textAlign:'center',
+    fontWeight:'500',
+    fontSize:30,
+    marginTop:-60,
+  },
+  btnSegmentos01:{
+    
+  },
+  btnSegmentos02:{
+    marginTop: 30
+  },
+  btnSegmentos03:{
+    marginTop: 30
+  },
+  btnSegmentos04:{
+    marginTop: 30
+  },
+  containerRedeSocial:{
+    alignItems:'center',
+    backgroundColor:'white',
+    marginTop:20,
+    height:'18%',
+    width:'30%',
+    left:140,
+    borderRadius:10
   }
 
-
-  
   })  
 
   export default styles;
