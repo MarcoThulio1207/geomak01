@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import { Text, TouchableOpacity, View, TextInput,Modal, Image,ScrollView, Easing } from "react-native";
-import styles from '../styles/styleIndex'
-import {  router, useRouter } from "expo-router";
+import styles from '../../styles/styleIndex'
+import { useNavigation, useRoute } from "@react-navigation/native";
+
 
 
 export default function Cadastro (){
@@ -13,7 +14,9 @@ export default function Cadastro (){
      const [contato, setContato] = useState('')
      const [senha, setSenha] = useState('')
      const [rsenha, setRsenha] = useState('')
-     const router = useRouter();
+
+     
+
 
 
     function cadastro(){
@@ -121,7 +124,7 @@ export default function Cadastro (){
                         <Text style={styles.txtmodal01}>Cadastrado com Sucesso!</Text>
                         <Image
                         style={styles.imgmodal}
-                        source={require('../assets/images/check.png')}
+                        source={require('../../assets/images/check.png')}
                         />
                         <TouchableOpacity
                         onPress={fecharModal}

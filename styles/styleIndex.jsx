@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     img:{
       width:102,
       height:112,
-      marginTop:90
+      marginTop:150
     },
     txtinicial:{
       marginTop:55,
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
       color:'white',
       textAlign:'center',
       alignItems:'center',
-      marginTop:25,
+      marginTop:100,
     },
     textInputs:{
       width:278,
@@ -147,12 +147,13 @@ const styles = StyleSheet.create({
     height:62
   },
   imgContainerHome:{
-    padding:20
+    padding:20,
+    marginTop:30
   },
   txtHome:{
     alignItems:'center',
     textAlign:'center',
-    marginTop:30,
+    marginTop:80,
     color:'white',
     fontSize:48
   },
@@ -258,6 +259,44 @@ const styles = StyleSheet.create({
     width:'30%',
     left:140,
     borderRadius:10
+  },
+  areaIMGContato:{
+    alignItems:'center',
+    marginTop:20
+  },
+  imageContato:{
+    width:300,
+    height:300,
+    alignItems:'center'
+  },
+  containerContato:{
+    backgroundColor:'white',
+    borderRadius:5,
+    padding:10,
+    marginTop:5,
+  },
+  txtContato:{
+    textAlign:'center',
+    fontWeight:'500',
+    fontSize:20
+  },
+  containerBtnContato:{
+    marginTop:20,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "##25D366",
+  },
+  btnWhatsapp:{
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#25D366",
+    padding: 12,
+    borderRadius: 8,
+  },
+  btnTXT:{
+    color: "#fff",
+    fontSize: 16,
+    marginLeft: 10,
   }
 
   })  

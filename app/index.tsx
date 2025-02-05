@@ -1,56 +1,40 @@
-import {  useRouter } from "expo-router";
-import React from 'react';
-import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
-import styles from '../styles/styleIndex';
+import React from "react";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Login from '../Pages/Login'
+import Cadastro from "../Pages/Cadastro";
+import Home from '../Pages/Home'
 
 
-export default function Index() {
 
-  const router = useRouter();
+const Stack = createNativeStackNavigator()
 
-  // colocar tela de loading ....
+export default function index(){
 
-  return (
-    <View style={styles.container}>
+  return(
+      <Stack.Navigator>
+        <Stack.Screen
+        name="Login"
+        component={Login}
+        options={{
+          headerShown: false
+        }}
+        />
 
-      <Image
-      style={styles.img}
-      source={require('../assets/images/logo.png')}
-      />
+        <Stack.Screen
+        name="Cadastro"
+        component={Cadastro}
+        options={{
+          headerShown: false
+        }}
+        />
 
-      <Text style={styles.txtinicial}>Seja bem vindo!</Text>
-
-      <View style={styles.containerInput}>
-        
-        <TextInput style={styles.txtlogin}
-          placeholder="Login:"
-          />
-      </View>
-
-      <View style={styles.containerInput}>
-        <TextInput style={styles.txtsenha}
-            placeholder="Senha:"
-            secureTextEntry
-          />
-      </View>
-
-      <TouchableOpacity style={styles.botaoentrar}
-        onPress={() => router.push('/home')}>
-        <View>
-          <Text style={styles.txtbotao}>Entrar</Text>
-        </View>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={styles.botaocadastro}
-        onPress={() => router.push('/cadastro')}
-        >
-        <View>
-          <Text style={styles.txtbotaocadastro}>Cadastro</Text>
-        </View>
-      </TouchableOpacity>
-
-
-    </View>
-  );
+        <Stack.Screen
+        name="Home"
+        component={Home}
+        options={{
+          headerShown: false
+        }}
+        />
+      </Stack.Navigator>
+  )
 }
-

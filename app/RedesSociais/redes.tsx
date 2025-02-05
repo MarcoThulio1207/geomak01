@@ -36,7 +36,6 @@ export default function Redes(){
                 url={'https://marcothulio1207.github.io/Site_Geomak_Brasil/'}
                 />
             </View>
-
         </View>
     )
 }

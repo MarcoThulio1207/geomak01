@@ -10,6 +10,7 @@ export default function RootLayout() {
         screenOptions={{
           headerStyle: styles.header,
           headerTintColor: "white",
+          headerShown: false
         }}
       />
     </View>

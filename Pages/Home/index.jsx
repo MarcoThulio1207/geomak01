@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Image, TouchableOpacity } from "react-native";
-import styles from '../styles/styleIndex';
-import Fornecedores from "./fornecedores";
+import styles from '../../styles/styleIndex';
+import Fornecedores from '../Fornecedores'
 import { useRouter } from "expo-router";
 
 export default function Home (){
@@ -15,17 +15,17 @@ export default function Home (){
             <View style={styles.imgContainerHome}>
                 <Image
                 style={styles.imgLogoHome}
-                source={require('../assets/images/imgHome/logo.png')}
+                source={require('../../assets/images/imgHome/logo.png')}
                 />
 
                 <Text style={styles.txtHome}>Home</Text>
 
                 <View style={styles.containerBtn}>
                     <TouchableOpacity style={styles.Principal01}
-                    onPress={()=> router.push('./fornecedores')}
+                    // onPress={()=> router.push('./fornecedores')}
                     >
                         <Image
-                        source={require('../assets/images/imgHome/fornecedores.png')}
+                        source={require('../../assets/images/imgHome/fornecedores.png')}
                         style={styles.imgbtn}
                         />
                         <Text style={styles.txtbtnPrincipal}>Fornecedores</Text>
@@ -33,27 +33,27 @@ export default function Home (){
 
                     <TouchableOpacity style={styles.Principal02}>
                         <Image 
-                        source={require('../assets/images/imgHome/produtos.png')}
+                        source={require('../../assets/images/imgHome/produtos.png')}
                         style={styles.imgbtn}
                         />
                         <Text style={styles.txtbtnPrincipal}>Produtos</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.Principal03}
-                    onPress={()=> router.push('./contato')}
+                    // onPress={()=> router.push('./contato')}
                     >
                         <Image 
-                        source={require('../assets/images/imgHome/contato.png')}
+                        source={require('../../assets/images/imgHome/contato.png')}
                         style={styles.imgbtn}
                         />
                         <Text style={styles.txtbtnPrincipal}>Contato</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.Principal04}
-                    onPress={() => router.push('/RedesSociais/redes')}
+                    // onPress={() => router.push('/RedesSociais/redes')}
                     >
                         <Image
-                        source={require('../assets/images/imgHome/redesocial.png')}
+                        source={require('../../assets/images/imgHome/redesocial.png')}
                         style={styles.imgbtn}/>
                         <Text style={styles.txtbtnPrincipal}>Redes Sociais</Text>
                     </TouchableOpacity>
