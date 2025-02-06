@@ -19,7 +19,7 @@ const Contato =  ()=>{
 
             <View style={styles.containercentralPadrao}>
                 <Image
-                source={require('../assets/images/imgHome/contato.png')}
+                source={require('../../assets/images/imgHome/contato.png')}
                style={styles.imgcontainerPadrao}
                 />
                 <Text style={styles.txtsegmento}>Nossa Equipe:</Text>
@@ -28,7 +28,7 @@ const Contato =  ()=>{
 
                 <View style={styles.areaIMGContato}>
                     <Image
-                    source={require('../assets/images/imgequipe/dhass.png')}
+                    source={require('../../assets/images/imgequipe/dhass.png')}
                     style={styles.imageContato}
                     />
                     <View style={styles.containerContato}>
@@ -47,7 +47,7 @@ const Contato =  ()=>{
 
                 <View style={styles.areaIMGContato}>
                     <Image
-                    source={require('../assets/images/imgequipe/lara.png')}
+                    source={require('../../assets/images/imgequipe/lara.png')}
                     style={styles.imageContato}
                     />
                     <View style={styles.containerContato}>
@@ -66,7 +66,7 @@ const Contato =  ()=>{
 
                 <View style={styles.areaIMGContato}>
                     <Image
-                    source={require('../assets/images/imgequipe/claudia.png')}
+                    source={require('../../assets/images/imgequipe/claudia.png')}
                     style={styles.imageContato}
                     />
                     <View style={styles.containerContato}>
@@ -85,7 +85,7 @@ const Contato =  ()=>{
 
                 <View style={styles.areaIMGContato}>
                     <Image
-                    source={require('../assets/images/imgequipe/fernanda.png')}
+                    source={require('../../assets/images/imgequipe/fernanda.png')}
                     style={styles.imageContato}
                     />
                     <View style={styles.containerContato}>
@@ -104,7 +104,7 @@ const Contato =  ()=>{
 
                 <View style={styles.areaIMGContato}>
                     <Image
-                    source={require('../assets/images/imgequipe/thulio.png')}
+                    source={require('../../assets/images/imgequipe/thulio.png')}
                     style={styles.imageContato}
                     />
                     <View style={styles.containerContato}>

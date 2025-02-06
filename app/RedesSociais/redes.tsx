@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Image,ScrollView } from "react-native";
-import styles from '../../styles/styleIndex'
-import RedeSocial from '../../Components/RedeSocial'
+import styles from '../styles/styleIndex'
+import RedeSocial from '../Components/RedeSocial'
 
 
 export default function Redes(){

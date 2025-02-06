@@ -209,7 +209,8 @@ const styles = StyleSheet.create({
     color:'white',
     textAlign:'center',
     padding:30,
-    fontSize:48
+    fontSize:48,
+    marginTop:25
   },
   containercentralPadrao:{
     alignItems:'center'
@@ -223,7 +224,7 @@ const styles = StyleSheet.create({
   },
   txtsegmento:{
     color:'white',
-    marginTop:15,
+    marginTop:50,
     fontSize:24
   },
   imgsegmentos:{
@@ -232,6 +233,13 @@ const styles = StyleSheet.create({
     borderRadius:10,
     left:10,
     marginTop:10
+  },
+  imgsegmentos02:{
+    height:80,
+    width:'95%',
+    borderRadius:10,
+    left:10,
+    marginTop:60
   },
   txtsegmentos:{
     textAlign:'center',

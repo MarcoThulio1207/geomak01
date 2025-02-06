@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Image,ScrollView } from "react-native";
-import styles from '../../styles/styleIndex';
-import Marca from '../../Components/Marca'
+import styles from '../styles/styleIndex';
+import Marca from '../Components/Marca'
 
 
 export default function Constcivil(){
@@ -12,7 +12,7 @@ export default function Constcivil(){
                 <View>
                     <Image
                     source={require('../../assets/images/imgsegmentos/constcivil.png')}
-                    style={styles.imgsegmentos}/>
+                    style={styles.imgsegmentos02}/>
                     <Text style={styles.txtsegmentos}> Const. Civil</Text>
                 </View>
 

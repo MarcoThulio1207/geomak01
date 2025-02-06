@@ -124,7 +124,7 @@ export default function Cadastro (){
                         <Text style={styles.txtmodal01}>Cadastrado com Sucesso!</Text>
                         <Image
                         style={styles.imgmodal}
-                        source={require('../../assets/images/check.png')}
+                        source={require('../../../assets/images/check.png')}
                         />
                         <TouchableOpacity
                         onPress={fecharModal}

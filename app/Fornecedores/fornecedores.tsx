@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, Image, TouchableOpacity } from "react-native";
-import styles from '../../styles/styleIndex';
+import styles from '../styles/styleIndex';
 import { useRouter } from "expo-router";
 
 
@@ -25,7 +25,7 @@ export default function Fornecedores (){
     
         <View>
             <TouchableOpacity style={styles.btnSegmentos01}
-            // onPress={()=> router.push('/Fornecedores/geotecnia')}
+            onPress={()=> router.push('/Fornecedores/geotecnia')}
             >
                 <Image
                 source={require('../../assets/images/imgsegmentos/geotecnia.png')}
@@ -35,7 +35,7 @@ export default function Fornecedores (){
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.btnSegmentos02}
-            // onPress={()=> router.push('/Fornecedores/constcivil')}
+            onPress={()=> router.push('/Fornecedores/constcivil')}
             >
                 <Image
                 source={require('../../assets/images/imgsegmentos/constcivil.png')}
@@ -45,7 +45,7 @@ export default function Fornecedores (){
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.btnSegmentos03}
-            // onPress={()=> router.push('/Fornecedores/industrial')}
+            onPress={()=> router.push('/Fornecedores/industrial')}
             >
                 <Image
                 source={require('../../assets/images/imgsegmentos/industrial.png')}
@@ -55,7 +55,7 @@ export default function Fornecedores (){
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.btnSegmentos04}
-            // onPress={()=> router.push('/Fornecedores/laboratorial')}
+            onPress={()=> router.push('/Fornecedores/laboratorial')}
             >
                 <Image
                 source={require('../../assets/images/imgsegmentos/laboratorial.png')}

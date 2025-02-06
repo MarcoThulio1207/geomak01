@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Image,ScrollView } from "react-native";
-import styles from '../../styles/styleIndex';
-import Marca from '../../Components/Marca'
+import styles from '../styles/styleIndex';
+import Marca from '../Components/Marca'
 
 export default function Industrial(){
     return(
@@ -12,7 +12,7 @@ export default function Industrial(){
                 <View>
                     <Image
                     source={require('../../assets/images/imgsegmentos/industrial.png')}
-                    style={styles.imgsegmentos}
+                    style={styles.imgsegmentos02}
                     />
                     <Text style={styles.txtsegmentos}>Industrial</Text>
                 </View>

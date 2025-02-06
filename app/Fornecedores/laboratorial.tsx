@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Image,ScrollView } from "react-native";
-import styles from '../../styles/styleIndex';
-import Marca from '../../Components/Marca'
+import styles from '../styles/styleIndex';
+import Marca from '../Components/Marca'
 
 export default function Laboratorial(){
     return(
@@ -11,7 +11,7 @@ export default function Laboratorial(){
                 <View>
                     <Image
                     source={require('../../assets/images/imgsegmentos/laboratorial.png')}
-                    style={styles.imgsegmentos}
+                    style={styles.imgsegmentos02}
                     />
                     <Text style={styles.txtsegmentos}>Laboratorial</Text>
                 </View>

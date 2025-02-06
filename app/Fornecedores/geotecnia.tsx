@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Image,ScrollView } from "react-native";
-import styles from '../../styles/styleIndex';
-import Marca from '../../Components/Marca'
+import styles from '../styles/styleIndex';
+import Marca from '../Components/Marca'
 
 export default function Geotecnia(){
     return(
@@ -11,7 +11,7 @@ export default function Geotecnia(){
                 <View>
                     <Image
                     source={require('../../assets/images/imgsegmentos/geotecnia.png')}
-                    style={styles.imgsegmentos}
+                    style={styles.imgsegmentos02}
                     />
                     <Text style={styles.txtsegmentos}>Geotecnia</Text>
                 </View>

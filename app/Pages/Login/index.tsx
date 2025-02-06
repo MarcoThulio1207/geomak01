@@ -23,7 +23,7 @@ export default function Login() {
 
       <Image
       style={styles.img}
-      source={require('../../assets/images/logo.png')}
+      source={require('../../../assets/images/logo.png')}
       />
 
       <Text style={styles.txtinicial}>Seja bem vindo!</Text>

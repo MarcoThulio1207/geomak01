@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
 imgBtn:{
     width:100,
     height:100,
-    marginTop:15,
+    marginTop:25,
 
 },
 
