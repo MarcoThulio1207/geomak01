@@ -30,7 +30,9 @@ export default function Home (){
                         <Text style={styles.txtbtnPrincipal}>Fornecedores</Text>
                     </TouchableOpacity>
 
-                    <TouchableOpacity style={styles.Principal02}>
+                    <TouchableOpacity style={styles.Principal02}
+                    onPress={()=> router.push('/Produtos/produtos')}
+                    >
                         <Image 
                         source={require('../../../assets/images/imgHome/produtos.png')}
                         style={styles.imgbtn}

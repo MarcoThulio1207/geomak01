@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
       width:200,
       height:50,
       backgroundColor:"white",
-      borderRadius:25,
+      borderRadius:10,
       marginTop:20,
       fontWeight:'bold'
     },
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
       width:200,
       height:50,
       backgroundColor:"white",
-      borderRadius:25,
+      borderRadius:10,
       marginTop:20,
       fontWeight:'bold'
     },
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
       width:278,
       height:50,
       backgroundColor:"white",
-      borderRadius:14,
+      borderRadius:5,
       marginTop:20,
       fontSize:20
     },
@@ -86,8 +86,8 @@ const styles = StyleSheet.create({
       width:150,
       height:45,
       backgroundColor:"white",
-      borderRadius:20,
-      marginBottom:45,
+      borderRadius:10,
+      marginTop:25,
       alignItems:'center',
       left:120
     },
@@ -305,7 +305,141 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 16,
     marginLeft: 10,
-  }
+  },
+  areaTermo:{
+    padding:8,
+    marginTop:8,
+
+  },
+  tituloTermo:{
+    fontSize:25,
+    textAlign:'center',
+    marginBottom:10
+  },
+  textoTermoArea:{
+    marginTop:5,
+    fontSize:18
+  },
+  btnfecharTermo:{
+    alignItems:'center',
+    backgroundColor:'red',
+    borderRadius:5,
+    marginTop:10,
+    marginBottom:5
+  },
+  txttermo:{
+    fontSize:18,
+    padding:5,
+    fontWeight:'bold'
+  },
+  btndosTermos:{
+    marginTop:8,
+    marginBottom:8,
+    padding:8,
+  },
+  txtTermos:{
+    fontSize:15,
+    fontWeight:'500',
+    
+  },
+  areaProduto:{
+    backgroundColor:'#69676A',
+    borderRadius:5,
+    alignItems:'center',
+    marginTop:20,
+    width:350,
+    left:20
+  },
+  areaProduto1:{
+    backgroundColor:'#BB342F',
+    borderRadius:5,
+    alignItems:'center',
+    marginTop:20,
+    width:350,
+    left:20
+  },
+  areaProduto2:{
+    backgroundColor:'#0479E2',
+    borderRadius:5,
+    alignItems:'center',
+    marginTop:20,
+    width:350,
+    left:20
+  },
+  areaProduto3:{
+    backgroundColor:'#FFBB32',
+    borderRadius:5,
+    alignItems:'center',
+    marginTop:20,
+    width:350,
+    left:20
+  },
+  btnProduto:{
+    padding:25,
+
+  },
+  imgProdutos:{
+    width:100,
+    height:100,
+    left:50,
+    bottom:13
+  },
+  imgProdutos0:{
+    width:100,
+    height:100,
+    left:95,
+    bottom:17
+  },
+  imgProdutos1:{
+    width:100,
+    height:100,
+    left:60,
+    bottom:17
+  },
+  imgProdutos2:{
+    width:100,
+    height:100,
+    left:65,
+    bottom:17
+  },
+  txtProduto:{
+    color:'#fff',
+    textAlign:'center',
+    fontSize:40,
+    marginTop:-90
+  },
+  txtProduto0:{
+    color:'#fff',
+    textAlign:'center',
+    fontSize:35,
+    marginTop:-90
+  },
+  produtoFerramental:{
+    backgroundColor:'#69676A',
+    width:350,
+    left:24,
+    borderRadius:5,
+    height:75,
+    marginTop:65
+  },
+  imgFerramental:{
+    width:60,
+    height:60,
+    marginTop:10,
+    left:140
+  },
+  areaItens:{
+    backgroundColor:'white',
+    height:'75%',
+    marginTop:20
+  },
+  txtarrasta:{
+    fontSize:12,
+    textAlign:'center',
+    marginTop:10,
+    marginBottom:10,
+    fontWeight:'500'
+  },
 
   })  
 
