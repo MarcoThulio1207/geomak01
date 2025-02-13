@@ -81,6 +81,26 @@ export default function Ferramental(){
                             />
                     </View>
 
+                    <View>
+                        <Produtos
+                            imagem={require('../../assets/images/ferramental/hq.png')}
+                            texto1={'Código: ROD 28390'}
+                            texto2={'Descrição: Haste de perfuração'}
+                            texto3={'Modelo: WL ROD - HQ'}
+                            texto4={'Configuração: TAM: 3M'}
+                            />
+                    </View>
+
+                    <View>
+                        <Produtos
+                            imagem={require('../../assets/images/ferramental/hq.png')}
+                            texto1={'Código: ROD 23390'}
+                            texto2={'Descrição: Haste de perfuração'}
+                            texto3={'Modelo: WL ROD - NQ'}
+                            texto4={'Configuração: TAM: 3M'}
+                            />
+                    </View>
+
                 </ScrollView>
                 
             </View>

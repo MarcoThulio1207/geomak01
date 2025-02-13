@@ -374,6 +374,14 @@ const styles = StyleSheet.create({
     width:350,
     left:20
   },
+  areaProduto4:{
+    backgroundColor:'#1f5769',
+    borderRadius:5,
+    alignItems:'center',
+    marginTop:20,
+    width:350,
+    left:20
+  },
   btnProduto:{
     padding:25,
 
@@ -439,6 +447,38 @@ const styles = StyleSheet.create({
     marginTop:10,
     marginBottom:10,
     fontWeight:'500'
+  },
+  produtoPerfuratriz:{
+    backgroundColor:'#BB342F',
+    width:350,
+    left:24,
+    borderRadius:5,
+    height:75,
+    marginTop:65
+  },
+  produtomini:{
+    backgroundColor:'#0479E2',
+    width:350,
+    left:24,
+    borderRadius:5,
+    height:75,
+    marginTop:65
+  },
+  produtoEscavadeira:{
+    backgroundColor:'#FFBB32',
+    width:350,
+    left:24,
+    borderRadius:5,
+    height:75,
+    marginTop:65
+  },
+  produtoLab:{
+    backgroundColor:'#1f5769',
+    width:350,
+    left:24,
+    borderRadius:5,
+    height:75,
+    marginTop:65
   },
 
   })  
