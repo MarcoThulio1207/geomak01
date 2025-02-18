@@ -27,18 +27,9 @@ export default function Cadastro() {
   const [erroSenha, setErroSenha] = useState('');
   const [erroRsenha, setErroRsenha] = useState('');
 
-  const [selecionado, setSelecionado] = useState(false)
   const [modalTermos, setModalTermo] = useState(false)
 
   const navegacao = useNavigation();
-
-  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-  if (!re.test(String(email).toLowerCase())){
-    setErroEmail("Preencha seu e-mail corretamente")
-    
-  }
-
-
 
   useEffect(()=>{
     async function getDados(){
@@ -141,10 +132,6 @@ export default function Cadastro() {
       contato: contato,
     })
   }
-
-
-
-
 
 
   return (

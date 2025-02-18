@@ -1,12 +1,14 @@
 import React  from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {View, Text, Image, StyleSheet,TouchableOpacity,Linking} from 'react-native';
 
-const Marca = ({imagem, titulo, descricao01, descricao02}) => {
+const Marca = ({imagem, titulo, descricao01, descricao02,url}) => {
     return(
         <><View style={styles.containermarcas}>
+        <TouchableOpacity onPress={()=>Linking.openURL(url)}>
             <Image
                 source={imagem}
                 style={styles.imgGeo} />
+        </TouchableOpacity>
         </View>
         <Text style={styles.txttitulo}>{titulo}</Text>
         <Text style={styles.txtparagrafo}>{descricao01}</Text>

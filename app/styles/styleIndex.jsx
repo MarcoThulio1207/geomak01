@@ -143,8 +143,9 @@ const styles = StyleSheet.create({
     backgroundColor:'#00974a',
   },
   imgLogoHome:{
-    width:62,
-    height:62
+    width:350,
+    height:350,
+    marginTop:-75
   },
   imgContainerHome:{
     padding:20,
@@ -153,7 +154,7 @@ const styles = StyleSheet.create({
   txtHome:{
     alignItems:'center',
     textAlign:'center',
-    marginTop:80,
+    marginTop:-70,
     color:'white',
     fontSize:48
   },
@@ -480,6 +481,32 @@ const styles = StyleSheet.create({
     height:75,
     marginTop:65
   },
+  btnSair:{
+    backgroundColor:'red',
+    borderRadius:8
+  },
+  txtSair:{
+    fontSize:15,
+    padding:8,
+    fontWeight:'bold'
+  },
+  areabtnSair:{
+    alignItems:'flex-end',
+  },
+  areaEndereco:{
+    alignItens:'center',
+    padding:10
+  },
+  areatxtEndereco:{
+    width:'100%',
+    borderBottomWidth:1,
+    borderBlockColor:'black',
+    marginBottom:10
+  },
+  txtEndereco:{
+    textAlign:'center',
+    color:'#fff'
+  }
 
   })  
 

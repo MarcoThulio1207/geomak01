@@ -21,6 +21,7 @@ export default function Constcivil(){
                 titulo='Kato'
                 descricao01='Equipamentos para construção,'
                 descricao02=' escavadeiras, em construção civil.'
+                url={'https://drive.google.com/file/d/1VxBUnU8jObYY00COopEjJG9yAuPFLa4e/view?usp=drive_link'}
                 />
 
                 <Marca
@@ -28,6 +29,7 @@ export default function Constcivil(){
                 titulo='Giken'
                 descricao01='Soluções para cravação de '
                 descricao02='estacas sem vibração.'
+                url={'https://drive.google.com/file/d/1ZLaE4PZggMyidZVzW2q2tKu6-5T9TuiI/view?usp=drive_link'}
                 />
 
                 <Marca
@@ -35,6 +37,7 @@ export default function Constcivil(){
                 titulo='Conjet'
                 descricao01='Equipamentos de hidrodemolição '
                 descricao02='para reparo de infraestruturas.'
+                url='teste'
                 />
 
                 <Marca
@@ -42,6 +45,7 @@ export default function Constcivil(){
                 titulo='Dieci'
                 descricao01='Veículos de movimentação,'
                 descricao02='também usados no setor industrial.'
+                url={'https://drive.google.com/file/d/1nAeyFPwt_fWoCGc7orqqLjhh6gbQ41fv/view?usp=drive_link'}
                 />
 
                 <Marca
@@ -49,6 +53,7 @@ export default function Constcivil(){
                 titulo='Multi One'
                 descricao01='Minicarregadeiras multifuncionais '
                 descricao02='para construção e paisagismo.'
+                url={'https://drive.google.com/file/d/1wHECOIpZoAGYpzdZ6o-ZBAZB8_JzDu92/view?usp=drive_link'}
                 />
 
                 <View style={{ marginBottom: 50 }} />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Image,ScrollView } from "react-native";
+import { Text, View, Image,ScrollView, } from "react-native";
 import styles from '../styles/styleIndex';
 import Marca from '../Components/Marca'
 
@@ -22,6 +22,7 @@ export default function Industrial(){
                 titulo='Kamat'
                 descricao01='Fabrica bombas de alta pressão e '
                 descricao02='sistemas de jato de água.'
+                url='teste'
                 />
 
                 <Marca
@@ -29,6 +30,7 @@ export default function Industrial(){
                 titulo='NK Jaguar'
                 descricao01='Máquinas de trituração e no'
                 descricao02='processamento de materiais.'
+                url={'https://drive.google.com/file/d/1yNPNnaY4OytEAOxuOxFUCb0WtO1MziCe/view?usp=drive_link'}
                 />
 
                 <Marca
@@ -36,6 +38,7 @@ export default function Industrial(){
                 titulo='TST'
                 descricao01='Equipamentos de segurança para'
                 descricao02='uso em ambientes industriais.'
+                url={'https://drive.google.com/file/d/1vIGVJ8hLV2lo3GIzOUsRpd-tUYsuGmFt/view?usp=drive_link'}
                 />
 
             </ScrollView>

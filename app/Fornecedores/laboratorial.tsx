@@ -21,6 +21,7 @@ export default function Laboratorial(){
                 titulo='Matest'
                 descricao01='Equipamentos para ensaios '
                 descricao02='de materiais (concreto, asfalto, solo).'
+                url={'https://drive.google.com/file/d/1N2Un1xmsY8Hg6UjS4HfOLO_N9XVxOAM4/view?usp=drive_link'}
                 />
 
             </ScrollView>

@@ -1,11 +1,16 @@
-import React from "react";
+import React , {useState} from "react";
 import { Text, View, Image, TouchableOpacity } from "react-native";
 import styles from '../../styles/styleIndex';
 import { useRouter } from "expo-router";
+import { auth } from '../../../Firebase/FirebaseConection';
+import { signOut } from 'firebase/auth';
 
 export default function Home (){
 
     const router = useRouter()
+    const [authUsuario, setAuthUsuario] = useState(null)
+
+
 
 
 
@@ -14,8 +19,9 @@ export default function Home (){
             <View style={styles.imgContainerHome}>
                 <Image
                 style={styles.imgLogoHome}
-                source={require('../../../assets/images/imgHome/logo.png')}
+                source={require('../../../assets/images/logo02.png')}
                 />
+
 
                 <Text style={styles.txtHome}>Home</Text>
 
@@ -59,6 +65,11 @@ export default function Home (){
                         <Text style={styles.txtbtnPrincipal}>Redes Sociais</Text>
                     </TouchableOpacity>
 
+                </View>
+
+                <View style={styles.areaEndereco}>
+                    <View style={styles.areatxtEndereco}/>
+                    <Text style={styles.txtEndereco}>Av. Canadá, 474 - Jardim Canada, Nova Lima - MG, 34007-654 - Tel. +55 (31) 2581-9332</Text>
                 </View>
 
             </View>

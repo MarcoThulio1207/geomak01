@@ -42,7 +42,7 @@ export default function Escavadeiras(){
 
                 <View>
                     <Produtos
-                        imagem={require('../../assets/images/escavadeira/kt33.png')}
+                        imagem={require('../../assets/images/escavadeira/teste.png')}
                         texto1={'Código: HD33V5'}
                         texto2={'Descrição: Mini Escavadeira'}
                         texto3={'Modelo: HD33V5'}

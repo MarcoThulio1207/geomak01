@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Image, Text, TextInput, TouchableOpacity, View, Alert } from "react-native";
 import styles from '../../styles/styleIndex';
 import { useNavigation } from "@react-navigation/native";
 import { auth } from '../../../Firebase/FirebaseConection';
-import { signInWithEmailAndPassword } from 'firebase/auth';
+import { signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'firebase/auth';
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -66,7 +66,7 @@ export default function Login() {
       <View style={styles.containerInput}>
         <TextInput
           style={styles.txtlogin}
-          placeholder="Login:"
+          placeholder="Email:"
           value={email}
           onChangeText={(texto) => setEmail(texto)}
           autoCapitalize="none"

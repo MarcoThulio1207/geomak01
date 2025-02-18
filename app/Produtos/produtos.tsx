@@ -29,7 +29,7 @@ export default function Produtos(){
                         source={require('../../assets/images/icons-produtos/ferramental.png')}
                         style={styles.imgProdutos}
                         />
-                    <Text style={styles.txtProduto}>Feramental</Text>
+                    <Text style={styles.txtProduto}>Ferramental</Text>
                     </TouchableOpacity>
                 </View>
 

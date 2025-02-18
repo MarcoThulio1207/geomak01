@@ -21,6 +21,7 @@ export default function Geotecnia(){
                     titulo = 'Comacchio'
                     descricao01 = 'Equipamentos de perfuração'
                     descricao02 = 'para geotecnia e fundações.'
+                    url={'https://drive.google.com/file/d/10oP3Rlgf7uhcpTrdzwYxVPEGhTlI3qVR/view?usp=drive_link'}
                 />
 
                 <Marca
@@ -28,6 +29,7 @@ export default function Geotecnia(){
                     titulo = 'Dimatec'
                     descricao01 = 'Ferramentas de perfuração'
                     descricao02 = 'para sondagem e geotecnia.'
+                    url={'https://drive.google.com/file/d/1xs0LJqYHZCUnkS3IkiFzhaF_UkM3fqVg/view?usp=drive_link'}
                 />
 
                 <Marca
@@ -35,6 +37,7 @@ export default function Geotecnia(){
                     titulo = 'Innra'
                     descricao01 = 'Soluções de automação industria'
                     descricao02 = 'e controle de processos.'
+                    url={'https://drive.google.com/file/d/1vt0RsC-hWnUjteJjEJDVYAAavOWO_7YU/view?usp=drive_link'}
                 />
 
                 <Marca
@@ -42,6 +45,7 @@ export default function Geotecnia(){
                     titulo = 'Technidrill'
                     descricao01 = 'Soluções de perfuração geotecnica'
                     descricao02 = 'e exploração mineral.'
+                    url='teste'
                 />
 
                 <Marca
@@ -49,6 +53,7 @@ export default function Geotecnia(){
                     titulo = 'Ocma DrillTech'
                     descricao01 = 'Equipamentos de perfuração'
                     descricao02 = 'para geotecnia.'
+                    url='teste'
                 />
                     <View style={{ marginBottom: 50 }} />
             </ScrollView>    
