@@ -33,14 +33,10 @@ Com este aplicativo, você pode acessar informações sobre **fornecedores**, **
 </div>
 
 ## Telas do APP 📱
-![WhatsApp Image 2025-03-10 at 16 16 49 (3)](https://github.com/user-attachments/assets/3978759a-5b25-4f7e-a7f3-2b3d84ecc6b1)
-![WhatsApp Image 2025-03-10 at 16 16 49 (2)](https://github.com/user-attachments/assets/f09dde5e-9524-42a0-9ebc-ede64bdc93fb)
-![WhatsApp Image 2025-03-10 at 16 16 49 (1)](https://github.com/user-attachments/assets/54c3655e-db06-4860-9044-b53629f5014c)
-![WhatsApp Image 2025-03-10 at 16 16 49](https://github.com/user-attachments/assets/c8c989ba-b5b0-43bb-84d5-80f291861108)
-![WhatsApp Image 2025-03-10 at 16 16 48 (4)](https://github.com/user-attachments/assets/104a1e36-d521-47bd-a609-40bfbdedc393)
-![WhatsApp Image 2025-03-10 at 16 16 48 (3)](https://github.com/user-attachments/assets/2c781cb7-74f7-4e12-ba4a-737be09cc5df)
-![WhatsApp Image 2025-03-10 at 16 16 48 (2)](https://github.com/user-attachments/assets/5ca71ab9-fbda-497f-bfd6-1b20e21e1253)
-![WhatsApp Image 2025-03-10 at 16 16 48 (1)](https://github.com/user-attachments/assets/1311889c-61ab-4dcf-b5c4-c879f4b31ec0)
+![WhatsApp Image 2025-03-10 at 16 16 49 (3)](https://github.com/user-attachments/assets/3978759a-5b25-4f7e-a7f3-2b3d84ecc6b1) ![WhatsApp Image 2025-03-10 at 16 16 49 (2)](https://github.com/user-attachments/assets/f09dde5e-9524-42a0-9ebc-ede64bdc93fb)
+![WhatsApp Image 2025-03-10 at 16 16 49 (1)](https://github.com/user-attachments/assets/54c3655e-db06-4860-9044-b53629f5014c) ![WhatsApp Image 2025-03-10 at 16 16 49](https://github.com/user-attachments/assets/c8c989ba-b5b0-43bb-84d5-80f291861108)
+![WhatsApp Image 2025-03-10 at 16 16 48 (4)](https://github.com/user-attachments/assets/104a1e36-d521-47bd-a609-40bfbdedc393) ![WhatsApp Image 2025-03-10 at 16 16 48 (3)](https://github.com/user-attachments/assets/2c781cb7-74f7-4e12-ba4a-737be09cc5df)
+![WhatsApp Image 2025-03-10 at 16 16 48 (2)](https://github.com/user-attachments/assets/5ca71ab9-fbda-497f-bfd6-1b20e21e1253) ![WhatsApp Image 2025-03-10 at 16 16 48 (1)](https://github.com/user-attachments/assets/1311889c-61ab-4dcf-b5c4-c879f4b31ec0)
 ![WhatsApp Image 2025-03-10 at 16 16 48](https://github.com/user-attachments/assets/9c5d69f7-608b-44ef-bc72-859dc09569e1)
 
 ---
