@@ -27,7 +27,7 @@ Com este aplicativo, você pode acessar informações sobre **fornecedores**, **
 - 🛒 **Consulta de produtos disponíveis para venda**
 
   <div style="display: flex; justify-content: space-between;">
-  <img src="WhatsApp Image 2025-03-10 at 16.16.49 (3).jpg" alt="WhatsApp Image 2025-03-10 at 16.16.49 (3)" style="width: 30%; height: auto;">
+  <img src="WhatsApp Image 2025-03-10 at 16.16.49 (3).jpg" alt="WhatsApp Image 2025-03-10 at 16.16.49 (3)" style="width: 30; height: auto;">
   <img src="imagem2.jpg" alt="Imagem 2" style="width: 30%; height: auto;">
   <img src="imagem3.jpg" alt="Imagem 3" style="width: 30%; height: auto;">
 </div>
