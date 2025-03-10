@@ -26,6 +26,12 @@ Com este aplicativo, você pode acessar informações sobre **fornecedores**, **
 - 🌐 **Links rápidos para Instagram, LinkedIn e site oficial**
 - 🛒 **Consulta de produtos disponíveis para venda**
 
+  <div style="display: flex; justify-content: space-between;">
+  <img src="WhatsApp Image 2025-03-10 at 16 16 49 (3).jpg" alt="Imagem 1" style="width: 30%; height: auto;">
+  <img src="imagem2.jpg" alt="Imagem 2" style="width: 30%; height: auto;">
+  <img src="imagem3.jpg" alt="Imagem 3" style="width: 30%; height: auto;">
+</div>
+
 ## Telas do APP 📱
 ![WhatsApp Image 2025-03-10 at 16 16 49 (3)](https://github.com/user-attachments/assets/3978759a-5b25-4f7e-a7f3-2b3d84ecc6b1)
 ![WhatsApp Image 2025-03-10 at 16 16 49 (2)](https://github.com/user-attachments/assets/f09dde5e-9524-42a0-9ebc-ede64bdc93fb)
