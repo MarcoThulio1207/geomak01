@@ -33,6 +33,10 @@ Com este aplicativo, você pode acessar informações sobre **fornecedores**, **
   <img src="https://github.com/user-attachments/assets/3978759a-5b25-4f7e-a7f3-2b3d84ecc6b1.png" width="750px"/>
 </div>
 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/3978759a-5b25-4f7e-a7f3-2b3d84ecc6b1.png" width="2px" />
+</div>
+
 ![WhatsApp Image 2025-03-10 at 16 16 49 (3)](https://github.com/user-attachments/assets/3978759a-5b25-4f7e-a7f3-2b3d84ecc6b1) 
 ![WhatsApp Image 2025-03-10 at 16 16 49 (2)](https://github.com/user-attachments/assets/f09dde5e-9524-42a0-9ebc-ede64bdc93fb)
 ![WhatsApp Image 2025-03-10 at 16 16 49 (1)](https://github.com/user-attachments/assets/54c3655e-db06-4860-9044-b53629f5014c) 
