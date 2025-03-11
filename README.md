@@ -29,20 +29,29 @@ Com este aplicativo, você pode acessar informações sobre **fornecedores**, **
 
 ## Telas do APP 📱
 
-<div align - "center">
-  <img src="https://github.com/user-attachments/assets/3978759a-5b25-4f7e-a7f3-2b3d84ecc6b1.png" width="750px"/>
+<div>
+  <img src="https://github.com/user-attachments/assets/791d3e14-8743-496e-9702-500e472df1aa" width="350px"/>  
+  <img src="https://github.com/user-attachments/assets/3637c35d-e740-4437-ad44-2ac115118bf0" width="350"/>
 </div>
 
+<div>
+  <img src="https://github.com/user-attachments/assets/a08fd43b-7980-4cba-8810-113d72ad6b00" width="350"/>
+  <img src="https://github.com/user-attachments/assets/ad775359-9b5c-44b9-b63d-d37495724b40" width="350"/>
+</div>
 
-![WhatsApp Image 2025-03-10 at 16 16 49 (3)](https://github.com/user-attachments/assets/3978759a-5b25-4f7e-a7f3-2b3d84ecc6b1) 
-![WhatsApp Image 2025-03-10 at 16 16 49 (2)](https://github.com/user-attachments/assets/f09dde5e-9524-42a0-9ebc-ede64bdc93fb)
-![WhatsApp Image 2025-03-10 at 16 16 49 (1)](https://github.com/user-attachments/assets/54c3655e-db06-4860-9044-b53629f5014c) 
-![WhatsApp Image 2025-03-10 at 16 16 49](https://github.com/user-attachments/assets/c8c989ba-b5b0-43bb-84d5-80f291861108)
-![WhatsApp Image 2025-03-10 at 16 16 48 (4)](https://github.com/user-attachments/assets/104a1e36-d521-47bd-a609-40bfbdedc393) 
-![WhatsApp Image 2025-03-10 at 16 16 48 (3)](https://github.com/user-attachments/assets/2c781cb7-74f7-4e12-ba4a-737be09cc5df)
-![WhatsApp Image 2025-03-10 at 16 16 48 (2)](https://github.com/user-attachments/assets/5ca71ab9-fbda-497f-bfd6-1b20e21e1253)
-![WhatsApp Image 2025-03-10 at 16 16 48 (1)](https://github.com/user-attachments/assets/1311889c-61ab-4dcf-b5c4-c879f4b31ec0)
-![WhatsApp Image 2025-03-10 at 16 16 48](https://github.com/user-attachments/assets/9c5d69f7-608b-44ef-bc72-859dc09569e1)
+<div>
+  <img src="https://github.com/user-attachments/assets/2937f0ae-eb93-4eed-aeac-cb67056fe69d" width="350"/>
+  <img src="https://github.com/user-attachments/assets/0f88719d-7b15-4d45-9697-927fe58544e0" width="350"/>
+</div>
+
+<div>
+  <img src="https://github.com/user-attachments/assets/39716360-491f-421e-ae10-4dfc6c3b69d3" width="350"/>
+  <img src="https://github.com/user-attachments/assets/94d75692-8b69-407b-8638-d9797e37cbcc" width="350"/>
+</div>
+
+<div>
+  <img src="https://github.com/user-attachments/assets/c9db0ac0-ae09-4745-85f9-199250834c09" width="350"/>
+</div>
 
 ---
 
